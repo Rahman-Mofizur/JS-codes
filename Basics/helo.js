@@ -5,6 +5,8 @@ const fruits = ["Apple", "Mango"];
 fruits.pop();
 fruits.push("Jackfruit");
 console.log(fruits);
+fruits.shift();
+console.log(fruits);
 console.log(fruits[0]);
 
 // Variable
@@ -50,7 +52,7 @@ console.log(c);
 
 // Type of
 var fullName = "Mohammed Mofizur Rahman";
-var age = 25;
+var age = 23;
 age += 1;
 var module = "16.05";
 // module = parseInt(module);

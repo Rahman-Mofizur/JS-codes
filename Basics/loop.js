@@ -45,3 +45,11 @@ var i = 5;
 for (; i < 5; i++) {
   console.log(i);
 }
+
+// Will execute one time extra than while loop
+var kit = 6,
+  p = 0;
+do {
+  console.log("This is number " + (p + 1));
+  p++;
+} while (p <= kit);
