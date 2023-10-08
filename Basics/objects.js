@@ -20,8 +20,8 @@ console.log(myComputerValues);
 console.log(myComputer.model);
 
 // Way: 2- Dynamic Way:
-var comCore = myComputer["core"];
-console.log(comCore);
+var comModel1 = myComputer["model"];
+console.log(comModel1);
 
 // Way: 3- more Dynamic:
 var propertyName = "screen";
