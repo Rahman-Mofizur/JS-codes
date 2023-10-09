@@ -1,12 +1,3 @@
-// Index and values of every indeces.
-function isOdd(numbers) {
-  for (let i = 0; i < numbers.length; i++) {
-    let index = i;
-    let elements = numbers[index];
-    console.log(index, elements);
-  }
-}
-
 // Odd Numbers and Summation of Odd Numbers
 function oddSum(oddNumbers) {
   let sum = 0;
@@ -19,9 +10,9 @@ function oddSum(oddNumbers) {
       sum += elements2;
     }
   }
-  console.log(sum);
-  console.log(oddNums);
+  console.log("Odd Numbers = ", oddNums);
+  console.log("Odd Numbers = " + oddNums);
+  console.log("Summation of odd numbers = " + sum);
 }
 var num = [10, 25, 35, 45, 50, 65, 70, 85, 100];
-isOdd(num);
 oddSum(num);
