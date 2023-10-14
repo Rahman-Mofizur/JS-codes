@@ -14,3 +14,6 @@ console.log(Math.abs(-55)); // Absolute number
 console.log(Math.pow(2, 3)); // 2^3
 
 console.log(Math.PI); // Pi এর মান show করবে।
+
+console.log(Math.max(24, 56, 98));
+console.log(Math.min(24, 56, 98));
