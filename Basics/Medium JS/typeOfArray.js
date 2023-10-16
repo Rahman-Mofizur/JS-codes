@@ -20,3 +20,4 @@ console.log(typeof objCar);
 console.log(typeof funcBook);
 
 console.log(Array.isArray(array));
+console.log(Array.isArray());
